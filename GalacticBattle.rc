@@ -1,0 +1,20 @@
+#include "Resource.h"
+
+//load icons
+IDI_ICON       ICON "Res\\Ship.ico"
+
+//Load bitmaps
+IDB_BACKGROUND BITMAP "Res\\Background.bmp"
+IDB_SHIP       BITMAP "Res\\Ship.bmp"
+IDB_SMISSILE   BITMAP "Res\\SMissile.bmp"
+IDB_KAMIKAZE   BITMAP "Res\\Kamikaze.bmp"
+IDB_SNIPER     BITMAP "Res\\Sniper.bmp"
+IDB_AMISSILE   BITMAP "Res\\AMissile.bmp"
+IDB_SPLASH     BITMAP "Res\\Splash.bmp"
+IDB_SHIELD     BITMAP "Res\\Shield.bmp"
+IDB_ENLARGE    BITMAP "Res\\Enlarge.bmp"
+IDB_BIGSMISSILE BITMAP "Res\\BigSMissile.bmp"
+
+//Load Waves
+IDW_MISSILESHOT WAVE   "Res\\MissileShot.wav"
+IDW_CRASH       WAVE   "Res\\Crash.wav"
